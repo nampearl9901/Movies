@@ -1,0 +1,104 @@
+.body1 {
+    background-image: linear-gradient(to bottom right, #beebf1, #f3accc);
+    height: 100vh;
+    overflow: hidden;
+  
+    font-family: monospace;
+    .text{
+      margin-left: 10px;
+   
+    }
+
+ 
+    .container {
+      position: absolute;
+  
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 80%;
+      z-index: 1;
+    
+      .form {
+          background-color: rgba(239, 239, 239, 0.3);
+          width: 100%;
+          height: 100%;
+          border-radius: 30px;
+          overflow: hidden;
+          .container3{
+              position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           overflow: hidden;
+           z-index: -1;
+           border-top-left-radius: 30px;
+           border-top-right-radius: 30px;
+  
+             
+            
+              #containerid{
+                position: absolute;
+                  width: 500px;
+                  height: 500px;
+                  background-image: linear-gradient(to top left, #B1baf5, #c2adf3);
+                  z-index: -1;
+                  border-radius:70% 30% 70% 30% / 70% 30% 70% 30% ;
+                  filter: blur(10px);
+                  top:-200px;
+                  left: 50%;
+                  transform: translate(-50%);
+  
+              }
+          }
+  
+    
+          .content {
+            width: 60%;
+            padding: 10px;
+            height: 100%;
+            position: absolute;
+    
+            h1 {
+              color: #fff;
+              font-size: 30px;
+              font-weight: bolder;
+              margin-bottom: 20px;
+            }
+    
+            .groupForm {
+              .group {
+                // height: 30px;
+                margin-left: 100px;
+                position: relative;
+                // margin-bottom: 30px;
+    
+                .inputText {
+                  // padding: 0 10%;
+                  height: 40px;
+                  // border: none;
+                  // outline: none;
+                  background-color: rgba(255, 255, 255, 0.6);
+                }
+              }
+              .btn {
+                // width: 100%;
+                // border: none;
+                // margin-top: 20%;
+    
+                border-radius: 10px;
+                position: absolute;
+                color: #fff;
+                // bottom: 0;
+                background-image: linear-gradient(to right, #90abf4, #e69);
+              }
+            }
+          }
+        }
+    }
+  
+ 
+  }
+  

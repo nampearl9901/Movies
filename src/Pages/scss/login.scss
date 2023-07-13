@@ -1,0 +1,91 @@
+.bg{
+    background-image: linear-gradient(to bottom right, #beebf1, #f3accc);
+    font-family: monospace;
+    
+
+    .bg__form{
+        background-color: rgba(239, 239, 239, 0.3);
+        position: relative;
+        z-index: 1;
+        border-radius: 20px;
+        .text__Login h1{
+            color: white;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+         .container3{
+              position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           overflow: hidden;
+           z-index: -1;
+           border-top-left-radius: 30px;
+           border-top-right-radius: 30px;
+  
+             
+            
+              #containerid{
+                position: absolute;
+                  width: 500px;
+                  height: 500px;
+                  background-image: linear-gradient(to top left, #B1baf5, #c2adf3);
+                  z-index: -1;
+                  border-radius:30% 70% 20% 70% / 70% 33% 27% 70% ;
+                  filter: blur(10px);
+          top: -200px;
+                  left: 80%;
+                  transform: translate(-50%);
+  
+              }
+          }
+          .container2{
+            position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+         z-index: -1;
+         border-top-left-radius: 30px;
+         border-top-right-radius: 30px;
+
+           
+          
+            #containerid2{
+              position: absolute;
+                width: 500px;
+                height: 500px;
+                background-image: linear-gradient(to top left, #B1baf5, #c2adf3);
+                z-index: -1;
+                border-radius:30% 70% 30% 70% / 70% 43% 57% 70% ;
+                filter: blur(10px);
+                    bottom: -200px;
+                right: 45%;
+                transform: translate(-50%);
+
+            }
+        }
+        .textInput {
+            // padding: 0 10%;
+            height: 40px;
+            // border: none;
+            // outline: none;
+            background-color: rgba(255, 255, 255, 0.6);
+          }
+        .btn{
+            border-radius: 10px;
+            color: #fff;
+            
+           
+            // bottom: 0;
+            background-image: linear-gradient(to right, #90abf4, #e69);
+        }
+        .text{
+            margin-left: 10px;
+        }
+    }
+
+}
